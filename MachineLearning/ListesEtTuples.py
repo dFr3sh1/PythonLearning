@@ -67,9 +67,16 @@ Exercicse : reprendre la fonction de fibonacci de l'exercise précédent et au l
 le fibonacci de tous les éléments d'une liste"""
 
 
+def fibonacci(n):
+    a = 0
+    b = 1
+    fin = [a]
+    while b < n:
+        a,b = b, a+b
+        fin.append(a)
+    return fibonacci
 
-
-
+print(fibonacci(1000))
 
 
 
