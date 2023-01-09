@@ -21,3 +21,6 @@ def trier(classeur, nombre):
         classeur['negatif'].append(nombre)
         
     return classeur
+
+trier(classeur, -2)
+
