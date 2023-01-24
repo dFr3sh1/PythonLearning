@@ -1,1 +1,1 @@
-# This project is the follow up of my Python learning courses.
+# This project is the follow up of my Pypip thon learning courses.
